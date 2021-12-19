@@ -1,0 +1,46 @@
+.form {
+  /* margin: 16px 0; */
+  font-size: 52px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+input[name="feedback"] {
+  display: none;
+}
+
+/* label input[name="feedback"]:checked {
+  font-weight: 700;
+  cursor: default;
+  background-color: #1c8cd6;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.32);
+} */
+
+.label {
+  display: inline-block;
+  margin: 0 16px;
+  padding: 20px;
+  width: 120px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  border-radius: 10px;
+  background-color: #76838b;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.label:hover {
+  font-weight: 700;
+  background-color: #1c8cd6;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.32);
+}
+.label:active {
+  background-color: #1839cf;
+  transform: translateY(2px);
+}
+.title {
+  margin-bottom: 10px;
+}
